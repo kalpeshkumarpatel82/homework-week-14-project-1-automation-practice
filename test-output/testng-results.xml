@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="13" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Page Header[[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //h1[contains(text(),'Authentication')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //input[@id='passwd']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //button[@id='SubmitLogin']]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //input[@id='passwd']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //button[@id='SubmitLogin']]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //input[@id='passwd']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //button[@id='SubmitLogin']]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //input[@id='passwd']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //button[@id='SubmitLogin']]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Create Account[[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='SubmitCreate']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Gender Radio [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='id_gender1']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_firstname']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_lastname']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending password [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='passwd']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting BirthDate  [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='days']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='months']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='years']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Newsletter checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='newsletter']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on offer checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='optin']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='firstname']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='lastname']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to company [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='company']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Address [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address1']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address2']]]]>
+    </line>
+    <line>
+      <![CDATA[setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_country']]]]>
+    </line>
+    <line>
+      <![CDATA[setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_state']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to city [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='city']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to postcode [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='postcode']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to additional info [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //textarea[@id='other']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to homephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to mobilephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone_mobile']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to alias [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='alias']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on register button [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='submitAccount']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on login link [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //h1[contains(text(),'My account')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Blouse [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[2]/div[1]/div[2]/h5[1]/a[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //select[@id='group_1']]]]>
+    </line>
+    <line>
+      <![CDATA[Selecting White Colour [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@name='White']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Printed Dress [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[3]/div[1]/div[2]/h5[1]/a[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //select[@id='group_1']]]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Orange Colour [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@name='Orange']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Printed Chiffon Dress [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[contains(text(),'Printed Chiffon Dress')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //select[@id='group_1']]]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Green Colour [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@name='Green']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Printed Summer Dress with Price tag $28.98 [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[5]/div[1]/div[2]/h5[1]/a[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //select[@id='group_1']]]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Blue Colour [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@name='Blue']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Page Header[[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //h2[contains(text(),'Women')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="sanity suite 2" duration-ms="111984" started-at="2022-05-08T10:57:25 CEST" finished-at="2022-05-08T10:59:17 CEST">
+    <groups>
+      <group name="regression">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignPageTest.userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="userShouldNavigateToSignInPageSuccessFully" class="com.automation.testsuite.SignPageTest"/>
+        <method signature="SignPageTest.verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" class="com.automation.testsuite.SignPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignPageTest.verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" class="com.automation.testsuite.SignPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignPageTest.userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="userShouldNavigateToSignInPageSuccessFully" class="com.automation.testsuite.SignPageTest"/>
+        <method signature="SignPageTest.verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" class="com.automation.testsuite.SignPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="sanity" duration-ms="111984" started-at="2022-05-08T10:57:25 CEST" finished-at="2022-05-08T10:59:17 CEST">
+      <class name="com.automation.testsuite.WomenCategoryPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="setUp" is-config="true" duration-ms="4330" started-at="2022-05-08T10:58:24 CEST" finished-at="2022-05-08T10:58:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:58:28 CEST" finished-at="2022-05-08T10:58:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="6145" started-at="2022-05-08T10:58:28 CEST" data-provider="product" finished-at="2022-05-08T10:58:34 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Blouse [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[2]/div[1]/div[2]/h5[1]/a[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //select[@id='group_1']]]]>
+            </line>
+            <line>
+              <![CDATA[Selecting White Colour [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@name='White']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="587" started-at="2022-05-08T10:58:34 CEST" finished-at="2022-05-08T10:58:35 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="setUp" is-config="true" duration-ms="5535" started-at="2022-05-08T10:58:35 CEST" finished-at="2022-05-08T10:58:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:58:40 CEST" finished-at="2022-05-08T10:58:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="9229" started-at="2022-05-08T10:58:40 CEST" data-provider="product" finished-at="2022-05-08T10:58:49 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Printed Dress [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[3]/div[1]/div[2]/h5[1]/a[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //select[@id='group_1']]]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Orange Colour [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@name='Orange']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="621" started-at="2022-05-08T10:58:49 CEST" finished-at="2022-05-08T10:58:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="setUp" is-config="true" duration-ms="4437" started-at="2022-05-08T10:58:50 CEST" finished-at="2022-05-08T10:58:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="init" is-config="true" duration-ms="1" started-at="2022-05-08T10:58:54 CEST" finished-at="2022-05-08T10:58:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="5313" started-at="2022-05-08T10:58:54 CEST" data-provider="product" finished-at="2022-05-08T10:59:00 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Chiffon Dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Printed Chiffon Dress [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[contains(text(),'Printed Chiffon Dress')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //select[@id='group_1']]]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Green Colour [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@name='Green']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="612" started-at="2022-05-08T10:59:00 CEST" finished-at="2022-05-08T10:59:00 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="setUp" is-config="true" duration-ms="4545" started-at="2022-05-08T10:59:00 CEST" finished-at="2022-05-08T10:59:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="init" is-config="true" duration-ms="1" started-at="2022-05-08T10:59:05 CEST" finished-at="2022-05-08T10:59:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="5075" started-at="2022-05-08T10:59:05 CEST" data-provider="product" finished-at="2022-05-08T10:59:10 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Summer Dress with Price $28.98]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Printed Summer Dress with Price tag $28.98 [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[5]/div[1]/div[2]/h5[1]/a[1]]]]>
+            </line>
+            <line>
+              <![CDATA[Clearing Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting Size [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //select[@id='group_1']]]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Blue Colour [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@name='Blue']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //span[contains(text(),'Add to cart')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Close button [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="590" started-at="2022-05-08T10:59:10 CEST" finished-at="2022-05-08T10:59:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="setUp" is-config="true" duration-ms="4307" started-at="2022-05-08T10:59:11 CEST" finished-at="2022-05-08T10:59:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="init" is-config="true" duration-ms="1" started-at="2022-05-08T10:59:15 CEST" finished-at="2022-05-08T10:59:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" duration-ms="1546" started-at="2022-05-08T10:59:15 CEST" finished-at="2022-05-08T10:59:16 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Page Header[[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //h2[contains(text(),'Women')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToWomenCategoryPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="583" started-at="2022-05-08T10:59:16 CEST" finished-at="2022-05-08T10:59:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.WomenCategoryPageTest -->
+      <class name="com.automation.testsuite.SignPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="7856" started-at="2022-05-08T10:57:25 CEST" finished-at="2022-05-08T10:57:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="init" is-config="true" duration-ms="15" started-at="2022-05-08T10:57:33 CEST" finished-at="2022-05-08T10:57:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="userShouldNavigateToSignInPageSuccessFully" duration-ms="3228" started-at="2022-05-08T10:57:33 CEST" finished-at="2022-05-08T10:57:36 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Page Header[[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //h1[contains(text(),'Authentication')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToSignInPageSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="592" started-at="2022-05-08T10:57:36 CEST" finished-at="2022-05-08T10:57:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="7933" started-at="2022-05-08T10:57:37 CEST" finished-at="2022-05-08T10:57:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:57:45 CEST" finished-at="2022-05-08T10:57:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="4411" started-at="2022-05-08T10:57:45 CEST" data-provider="credentials" finished-at="2022-05-08T10:57:49 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //input[@id='passwd']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //button[@id='SubmitLogin']]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="612" started-at="2022-05-08T10:57:49 CEST" finished-at="2022-05-08T10:57:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="4645" started-at="2022-05-08T10:57:50 CEST" finished-at="2022-05-08T10:57:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:57:55 CEST" finished-at="2022-05-08T10:57:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="2417" started-at="2022-05-08T10:57:55 CEST" data-provider="credentials" finished-at="2022-05-08T10:57:57 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //input[@id='passwd']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //button[@id='SubmitLogin']]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="609" started-at="2022-05-08T10:57:57 CEST" finished-at="2022-05-08T10:57:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="4019" started-at="2022-05-08T10:57:58 CEST" finished-at="2022-05-08T10:58:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="init" is-config="true" duration-ms="1" started-at="2022-05-08T10:58:02 CEST" finished-at="2022-05-08T10:58:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="2579" started-at="2022-05-08T10:58:02 CEST" data-provider="credentials" finished-at="2022-05-08T10:58:04 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adfdfgfg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //input[@id='passwd']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //button[@id='SubmitLogin']]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="590" started-at="2022-05-08T10:58:04 CEST" finished-at="2022-05-08T10:58:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="setUp" is-config="true" duration-ms="4123" started-at="2022-05-08T10:58:05 CEST" finished-at="2022-05-08T10:58:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:58:09 CEST" finished-at="2022-05-08T10:58:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="2553" started-at="2022-05-08T10:58:09 CEST" data-provider="credentials" finished-at="2022-05-08T10:58:11 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Password [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //input[@id='passwd']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //button[@id='SubmitLogin']]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Error Message[[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //div[@class='alert alert-danger']//li]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignPageTest@704d6e83]" name="tearDown" is-config="true" duration-ms="610" started-at="2022-05-08T10:58:11 CEST" finished-at="2022-05-08T10:58:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.SignPageTest -->
+      <class name="com.automation.testsuite.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="setUp" is-config="true" duration-ms="3852" started-at="2022-05-08T10:58:12 CEST" finished-at="2022-05-08T10:58:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="init" is-config="true" duration-ms="2" started-at="2022-05-08T10:58:16 CEST" finished-at="2022-05-08T10:58:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="verifyThatUserShouldCreateAccountSuccessfully" duration-ms="7014" started-at="2022-05-08T10:58:16 CEST" finished-at="2022-05-08T10:58:23 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Create Account[[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='SubmitCreate']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Gender Radio [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='id_gender1']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_firstname']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_lastname']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending password [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='passwd']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting BirthDate  [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='days']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='months']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='years']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Newsletter checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='newsletter']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on offer checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='optin']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='firstname']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='lastname']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to company [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='company']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to Address [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address1']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address2']]]]>
+            </line>
+            <line>
+              <![CDATA[setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_country']]]]>
+            </line>
+            <line>
+              <![CDATA[setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_state']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to city [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='city']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to postcode [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='postcode']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to additional info [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //textarea[@id='other']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to homephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to mobilephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone_mobile']]]]>
+            </line>
+            <line>
+              <![CDATA[Sending text to alias [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='alias']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on register button [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='submitAccount']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on login link [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //h1[contains(text(),'My account')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@52525845]" name="tearDown" is-config="true" duration-ms="617" started-at="2022-05-08T10:58:23 CEST" finished-at="2022-05-08T10:58:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.CreateAccountPageTest -->
+    </test> <!-- sanity -->
+  </suite> <!-- sanity suite 2 -->
+</testng-results>

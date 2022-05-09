@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>TestNG:  sanity</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sanity</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 08 10:57:25 CEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111984 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.testsuite.SignPageTest.userShouldNavigateToSignInPageSuccessFully()'><b>userShouldNavigateToSignInPageSuccessFully</b><br>Test class: com.automation.testsuite.SignPageTest<br/>
+<a href="#Output-571481216" onClick='toggleBox("Output-571481216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-571481216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571481216">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Getting Page Header[[ChromeDriver: chrome on WINDOWS (3b0b740606778d5344c30d855cd1db41)] -> xpath: //h1[contains(text(),'Authentication')]]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.automation.testsuite.SignPageTest@704d6e83</td></tr>
+<tr>
+<td title='com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully()'><b>verifyUserShouldAddProductToTheCartSuccessfully</b><br>Test class: com.automation.testsuite.WomenCategoryPageTest<br>Parameters: Printed Dress, 3, L, Orange<br/>
+<a href="#Output-877898962" onClick='toggleBox("Output-877898962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-877898962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-877898962">
+Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]<br/>
+Clicking on Printed Dress [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[3]/div[1]/div[2]/h5[1]/a[1]]<br/>
+Clearing Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Setting Size [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //select[@id='group_1']]<br/>
+Selecting Orange Colour [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //a[@name='Orange']]<br/>
+Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //span[contains(text(),'Add to cart')]]<br/>
+Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]<br/>
+Clicking on Close button [[ChromeDriver: chrome on WINDOWS (e85cbc9a1f4df253bbe8a74c88a92af6)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.automation.testsuite.WomenCategoryPageTest@24b1d79b</td></tr>
+<tr>
+<td title='com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully()'><b>verifyUserShouldAddProductToTheCartSuccessfully</b><br>Test class: com.automation.testsuite.WomenCategoryPageTest<br>Parameters: Printed Chiffon Dress, 4, S, Green<br/>
+<a href="#Output-1582906120" onClick='toggleBox("Output-1582906120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1582906120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1582906120">
+Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]<br/>
+Clicking on Printed Chiffon Dress [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[contains(text(),'Printed Chiffon Dress')]]<br/>
+Clearing Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Setting Size [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //select[@id='group_1']]<br/>
+Selecting Green Colour [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //a[@name='Green']]<br/>
+Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //span[contains(text(),'Add to cart')]]<br/>
+Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]<br/>
+Clicking on Close button [[ChromeDriver: chrome on WINDOWS (a381325a08fabd1c6e62b78c3e071f37)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.automation.testsuite.WomenCategoryPageTest@24b1d79b</td></tr>
+<tr>
+<td title='com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()'><b>verifyUserShouldNavigateToWomenCategoryPageSuccessfully</b><br>Test class: com.automation.testsuite.WomenCategoryPageTest<br/>
+<a href="#Output-65465460" onClick='toggleBox("Output-65465460", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65465460" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65465460">
+Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]<br/>
+Getting Page Header[[ChromeDriver: chrome on WINDOWS (440ab68da34fb506ac1f312b12e58f5e)] -> xpath: //h2[contains(text(),'Women')]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.automation.testsuite.WomenCategoryPageTest@24b1d79b</td></tr>
+<tr>
+<td title='com.automation.testsuite.SignPageTest.verifyTheErrorMessageWithInValidCredentials()'><b>verifyTheErrorMessageWithInValidCredentials</b><br>Test class: com.automation.testsuite.SignPageTest<br>Parameters: adfdfgfg, 123456, Invalid email address.<br/>
+<a href="#Output-287859212" onClick='toggleBox("Output-287859212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-287859212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-287859212">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Sending text to Password [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //input[@id='passwd']]<br/>
+Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //button[@id='SubmitLogin']]<br/>
+Getting Error Message[[ChromeDriver: chrome on WINDOWS (b8dc4638dfc10cd79f29f32f8ee147ff)] -> xpath: //div[@class='alert alert-danger']//li]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.automation.testsuite.SignPageTest@704d6e83</td></tr>
+<tr>
+<td title='com.automation.testsuite.SignPageTest.verifyTheErrorMessageWithInValidCredentials()'><b>verifyTheErrorMessageWithInValidCredentials</b><br>Test class: com.automation.testsuite.SignPageTest<br>Parameters: abcd@gmail.com, 12346, Authentication failed.<br/>
+<a href="#Output-1994249754" onClick='toggleBox("Output-1994249754", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1994249754" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1994249754">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Sending text to Password [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //input[@id='passwd']]<br/>
+Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //button[@id='SubmitLogin']]<br/>
+Getting Error Message[[ChromeDriver: chrome on WINDOWS (c37cf23ea0db23644f6a509a6e7bd402)] -> xpath: //div[@class='alert alert-danger']//li]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.automation.testsuite.SignPageTest@704d6e83</td></tr>
+<tr>
+<td title='com.automation.testsuite.SignPageTest.verifyTheErrorMessageWithInValidCredentials()'><b>verifyTheErrorMessageWithInValidCredentials</b><br>Test class: com.automation.testsuite.SignPageTest<br>Parameters: abcd@gmail.com,  , Password is required.<br/>
+<a href="#Output-246014273" onClick='toggleBox("Output-246014273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-246014273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-246014273">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Sending text to Password [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //input[@id='passwd']]<br/>
+Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //button[@id='SubmitLogin']]<br/>
+Getting Error Message[[ChromeDriver: chrome on WINDOWS (fe02b58df6bbfca04ab4a6b8a7365ece)] -> xpath: //div[@class='alert alert-danger']//li]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.automation.testsuite.SignPageTest@704d6e83</td></tr>
+<tr>
+<td title='com.automation.testsuite.SignPageTest.verifyTheErrorMessageWithInValidCredentials()'><b>verifyTheErrorMessageWithInValidCredentials</b><br>Test class: com.automation.testsuite.SignPageTest<br>Parameters:  , 123456, An email address required.<br/>
+<a href="#Output-1800959603" onClick='toggleBox("Output-1800959603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1800959603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1800959603">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Sending text to Password [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //input[@id='passwd']]<br/>
+Clicking on Sign IN [[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //button[@id='SubmitLogin']]<br/>
+Getting Error Message[[ChromeDriver: chrome on WINDOWS (cf26dd7223f93db2f6cf12f2cea4d935)] -> xpath: //div[@class='alert alert-danger']//li]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.automation.testsuite.SignPageTest@704d6e83</td></tr>
+<tr>
+<td title='com.automation.testsuite.CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()'><b>verifyThatUserShouldCreateAccountSuccessfully</b><br>Test class: com.automation.testsuite.CreateAccountPageTest<br/>
+<a href="#Output-557016605" onClick='toggleBox("Output-557016605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557016605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557016605">
+Clicking on Sign In [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+Clicking on Create Account[[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='SubmitCreate']]<br/>
+Clicking on Gender Radio [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='id_gender1']]<br/>
+Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_firstname']]<br/>
+Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='customer_lastname']]<br/>
+Sending password [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='passwd']]<br/>
+Setting BirthDate  [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='days']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='months']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='years']]<br/>
+Clicking on Newsletter checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='newsletter']]<br/>
+Clicking on offer checkbox [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='optin']]<br/>
+Sending text to firstname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='firstname']]<br/>
+Sending text to lastname [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='lastname']]<br/>
+Sending text to company [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='company']]<br/>
+Sending text to Address [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address1']] [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='address2']]<br/>
+setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_country']]<br/>
+setting state [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //select[@id='id_state']]<br/>
+Sending text to city [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='city']]<br/>
+Sending text to postcode [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='postcode']]<br/>
+Sending text to additional info [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //textarea[@id='other']]<br/>
+Sending text to homephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone']]<br/>
+Sending text to mobilephone [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='phone_mobile']]<br/>
+Sending text to alias [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //input[@id='alias']]<br/>
+Clicking on register button [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //button[@id='submitAccount']]<br/>
+Clicking on login link [[ChromeDriver: chrome on WINDOWS (4b3887a8c030291e8b3182f8e657b6ce)] -> xpath: //h1[contains(text(),'My account')]]<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.automation.testsuite.CreateAccountPageTest@52525845</td></tr>
+<tr>
+<td title='com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully()'><b>verifyUserShouldAddProductToTheCartSuccessfully</b><br>Test class: com.automation.testsuite.WomenCategoryPageTest<br>Parameters: Blouse, 2, M, White<br/>
+<a href="#Output-307036850" onClick='toggleBox("Output-307036850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307036850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307036850">
+Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]<br/>
+Clicking on Blouse [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[2]/div[1]/div[2]/h5[1]/a[1]]<br/>
+Clearing Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Setting Size [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //select[@id='group_1']]<br/>
+Selecting White Colour [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //a[@name='White']]<br/>
+Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //span[contains(text(),'Add to cart')]]<br/>
+Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]<br/>
+Clicking on Close button [[ChromeDriver: chrome on WINDOWS (ee7baec4191a68a461b139f6ee2732a3)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.automation.testsuite.WomenCategoryPageTest@24b1d79b</td></tr>
+<tr>
+<td title='com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully()'><b>verifyUserShouldAddProductToTheCartSuccessfully</b><br>Test class: com.automation.testsuite.WomenCategoryPageTest<br>Parameters: Printed Summer Dress with Price $28.98, 2, M, Blue<br/>
+<a href="#Output-528757371" onClick='toggleBox("Output-528757371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-528757371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-528757371">
+Clicking on Women tab [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@class='sf-with-ul' and contains(text(),'Women')]]<br/>
+Clicking on Printed Summer Dress with Price tag $28.98 [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[5]/div[1]/div[2]/h5[1]/a[1]]<br/>
+Clearing Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Sending text to Quantity [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //input[@id='quantity_wanted']]<br/>
+Setting Size [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //select[@id='group_1']]<br/>
+Selecting Blue Colour [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //a[@name='Blue']]<br/>
+Clicking on Add to Cart [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //span[contains(text(),'Add to cart')]]<br/>
+Getting Confirm Message [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //div[@class='layer_cart_product col-xs-12 col-md-6']]<br/>
+Clicking on Close button [[ChromeDriver: chrome on WINDOWS (593cebf44ffba8e20edf553706e2117e)] -> xpath: //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/span[1]]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.automation.testsuite.WomenCategoryPageTest@24b1d79b</td></tr>
+</table><p>
+</body>
+</html>

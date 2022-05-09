@@ -42,53 +42,51 @@ public class WomenCategoryPage extends Utility {
     WebElement printedSummerDress;
 
 
-    public String getPageHeader(){
+    public String getPageHeader() {
         Reporter.log("Getting Page Header" + pageHeader.toString());
         return getTextFromElement(pageHeader);
     }
 
-    public void setTopsLink(){
+    public void setTopsLink() {
         Reporter.log("Clicking on Tops " + topsLink.toString());
         clickOnElement(topsLink);
     }
 
-    public void setDressesLink(){
+    public void setDressesLink() {
         Reporter.log("Clicking on Dresses " + dressesLink.toString());
         clickOnElement(dressesLink);
     }
 
-    public void setSortBy(String text){
+    public void setSortBy(String text) {
         Reporter.log("Selecting sort by " + sortBy.toString());
-        selectByValueFromDropDown(sortBy,text);
+        selectByValueFromDropDown(sortBy, text);
     }
 
-    public void setListView(){
+    public void setListView() {
         Reporter.log("Clicking on List View " + listView.toString());
         clickOnElement(listView);
     }
 
-    public void selectProduct(String text){
+    public void selectProduct(String text) {
 
-        if(text == "Blouse") {
+        if (text == "Blouse") {
             Reporter.log("Clicking on Blouse " + blouseDress.toString());
             clickOnElement(blouseDress);
         }
 
-        if(text == "Printed Dress") {
+        if (text == "Printed Dress") {
             Reporter.log("Clicking on Printed Dress " + printedDress.toString());
             clickOnElement(printedDress);
         }
-        if(text == "Printed Chiffon Dress") {
+        if (text == "Printed Chiffon Dress") {
             Reporter.log("Clicking on Printed Chiffon Dress " + printedChiffonDress.toString());
             clickOnElement(printedChiffonDress);
         }
-        if(text == "Printed Summer Dress with Price $28.98") {
+        if (text == "Printed Summer Dress with Price $28.98") {
             Reporter.log("Clicking on Printed Summer Dress with Price tag $28.98 " + printedSummerDress.toString());
             clickOnElement(printedSummerDress);
         }
     }
-
-
 
 
 }
